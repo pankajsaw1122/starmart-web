@@ -1,0 +1,144 @@
+#homepage {
+    font-family: 'Ubuntu', sans-serif !important;
+    #carousel {
+        .owl-carousel-cs {
+            margin-left: 0px !important;
+        }
+    }
+    .owl-theme .owl-nav {
+        bottom: 39%;
+    position: absolute;
+    }
+    .button.owl-prev {
+        position: absolute;
+    left: 2%;
+    padding: 4px;
+    }
+    .button.owl-next {
+        position: absolute;
+        left: 2%;
+        padding: 4px;
+    }
+
+    .green-bar {
+        border: 2px solid black;
+    background-color: #007947;
+    }
+    .icon-box {
+        display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 2px 6px;
+    }
+    .icon-style {
+        padding-top: 4px;
+    font-size: 38px;
+    color: #ffff;
+    width: 38px;
+    }
+    .icon-text {
+        display: inline-block;
+    padding: 2px 16px;
+    color: white;
+    }
+    .upper-text {
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .bar-pad {
+        padding: 8px 42px;
+    }
+    .special-offers {
+        margin-top: 48px;
+    }
+    .spcl-head {
+        text-align: center;
+    }
+    
+    .ser-t {
+        text-align: center;
+        margin: 0 auto;
+        width: 20%;
+        position: relative;
+    }
+    .ser-t b {
+        width: 100%;
+        height: 2px;
+        display: block;
+        background: #039445;
+        margin-bottom: 3px;
+    }
+    .content-top{
+        padding:3em 0 0;
+        background: #f5f5f5;
+    }
+    .ser-t span {
+        width: 40px;
+        height: 40px;
+        display: block;
+        background: #fff;
+        position: absolute;
+        top: -7px;
+        left: 42%;
+    }
+    .ser-t span i {
+        width: 20px;
+        height: 20px;
+        display: block;
+        border: 2px solid #039445;
+        transform: rotate(45deg) translate3d(0, 0, 0);
+        margin-left: 0.7em;
+    }
+    .ser-t b.line {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .offers-tab {
+        margin-top: 36px;
+    }
+
+    .example-card {
+        max-width: 400px;
+      }
+      
+      .example-header-image {
+        background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+        background-size: cover;
+      }
+      .marg-top-24 {
+        padding-top: 24px;
+      }
+      @media (min-width: 992px) {
+        .col-lg-2.adjust-5 {
+            margin: auto;
+            flex: 0 0 19.666667%;
+            max-width: 19.666667%;
+          }
+      }
+      .offer {
+            position: absolute;
+            top: 8px;
+            right: 0px;
+            border: 2px solid #ED0612;
+            border-radius: 100px 0 0 100px;
+            padding: 2px;
+      }
+      .offer p {
+        margin-bottom: 0px;
+        background: #ED0612;
+        border-radius: 100px 0px 0px 100px;
+        text-align: center;
+        line-height: 0em !important;
+        font-size: 0.9em !important;
+        padding: 7px;
+    }
+      .offer span {
+        color: #fff;
+        font-size: 11px;
+        text-align: center;
+        display: inline-block;
+        font-weight: bold;
+    }
+      
+}

@@ -1,0 +1,114 @@
+<!-- <app-header></app-header> -->
+<!-- <app-sidebar></app-sidebar> -->
+<!-- <section class="main-container">
+    <router-outlet></router-outlet>
+</section> -->
+<mat-sidenav-container class="sidenav-cont" id="top-header">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top nav-style">
+        <ul class="navbar-nav  mr-auto">
+            <li class="nav-item menu-bar">
+                <button mat-icon-button (click)="sidenav.toggle()">
+                    <mat-icon class="menu-icon">menu</mat-icon>
+                </button>
+            </li>
+            <li class="nav-item offer-btn">
+                <button mat-flat-button class="offer-btn">Today's special Offers !</button>
+            </li>
+            <li class="nav-item search-form">
+                <form class="form-inline" ngSubmit="searchProduct()">
+                    <input type="text" class="form-control" placeholder="Search a product" id="searchText" name="searchText">
+                    <button type="submit" mat-flat-button class="search-btn">
+                        <mat-icon>search</mat-icon>
+                    </button>
+                </form>
+            </li>
+            <li class="nav-item cart-button-sect">
+                <table>
+                    <tr>
+                        <td><button mat-flat-button class="cart-btn">View your Cart <i class="material-icons">
+                                    local_grocery_store
+                                </i></button></td>
+                        <td>
+                            <button mat-flat-button class="login-btn"><i class="material-icons login-icon">
+                                    person
+                                </i>Login / SignUp </button>
+                        </td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+
+            <li class="nav-item contact-sect">
+                <button mat-flat-button class="contact-btn">Contact Us</button>
+            </li>
+        </ul>
+    </nav>
+    <mat-sidenav #sidenav [mode]="'over'">
+        <p><button mat-button (click)="sidenav.toggle()">Toggle</button></p>
+        <ul>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+            <li>anbj</li>
+        </ul>
+    </mat-sidenav>
+    <div style="margin-top:48px" id="logo-header">
+        <nav class="navbar navbar-expand-sm navbar-light nav-style">
+            <!-- Brand/logo -->
+            <a class="navbar-brand logo-img" href="#">
+                <img src="https://www.starmart.com.hk/wp-content/uploads/2018/04/Star-Mart-Shop-Final-Logo.png" alt="logo">
+            </a>
+
+            <!-- Links -->
+            <ul class="navbar-nav mx-auto ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link link-styl" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-styl" href="#">Promotion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-styl" href="#">Bulk Items</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-styl" href="#">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-styl" href="#">Brands</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item pad-18">
+                    <mat-icon class="contact-icon"> phone </mat-icon>
+                    <span class="phone-number">(+0123) 234 567</span>
+                </li>
+                <li class="nav-item pad-18">
+                    <mat-icon class="email-icon">email</mat-icon>
+                    <span class="email-text">store@grocery.com</span>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div id="marquee-sect">
+        <div class="marquee-bar">
+            <ng-marquee>
+                <mark class="mark-content"><a href="#" target="__blank"><span class="mark-text"> New collections are
+                            available here......
+                        </span> <span class="mark-text">Get extra 10% off on everything | no extra taxes </span> <span
+                            class="mark-text"> Try shipping pass free for 15 days with unlimited</span></a></mark>
+            </ng-marquee>
+        </div>
+    </div>
+
+    <router-outlet></router-outlet>
+    <!-- <mat-sidenav-content>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content> -->
+</mat-sidenav-container>

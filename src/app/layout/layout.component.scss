@@ -1,0 +1,118 @@
+#top-header {
+    // .mat-toolbar {
+    //     background: black;
+    // }
+    // .mat-toolbar {
+    //     height: 48px !important;
+    //     padding: 0 0px !important;
+    // }
+    .nav-style {
+        padding: 0px;
+    }
+    .menu-bar {
+        min-width: 56px;
+    }
+    .menu-icon {
+        width: unset !important;
+        color: white;
+        font-size: 52px;
+    }
+    .offer-btn {
+        font-size: 16px;
+        height: 48px;
+    outline: none;
+    border-radius: unset;
+    background-color: #007947;
+    }
+    .search-form {
+        min-width: 56%;
+        padding-left: 48px;
+        padding-right: 24px;
+    }
+    .form-inline .form-control {
+        height: 44px;
+        border-radius: 0px;
+        width: 82%;
+    }
+    @media only screen and (max-width: 1350px) {
+        // .search-form {
+        //     width: 60%;
+        // }
+    }
+    .search-btn {
+        min-width: 62px;
+    padding: 0 4px;
+    height: 44px;
+    margin: 2px;
+    background: #f47721;
+    border-radius: 0px;
+    }
+    .cart-btn {
+        margin-top: 2px;
+        background: none;
+        border: 1px solid green;
+    }
+    .login-icon {
+        font-size: 18px;
+        padding-right: 8px;
+    }
+    .login-btn {
+        margin-top: 2px;
+        background: none;
+        border: double green;
+        margin-left: 24px;
+    }
+    .free-space {
+        flex: 1 1 auto;
+    }
+    .contact-btn {
+        background: #f47721;
+    height: 48px;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 0px 24px;
+    border-radius: 0px;
+    }
+}
+
+#logo-header {
+    .nav-item {
+        padding: 0px 8px;
+    }
+   .logo-img {
+       padding-left: 55px;
+       padding-top: 0px;
+    padding-bottom: 0px;
+   }
+   .pad-18 {
+       padding-right: 28px;
+   }
+   .contact-icon {
+       font-size: 16px;
+   }
+   .phone-number {
+    font-size: 14px;
+   }
+   .email-icon {
+    font-size: 14px;
+   }
+   .link-styl {
+    color: rgba(6, 6, 6, 0.69);
+    font-weight: bolder;
+   }
+}
+   #marquee-sect {
+       .marquee-bar {
+        background-image: url("../../assets/images/bg.png");
+        background-size: cover;
+        padding: 12px 4px;
+       }
+       .mark-content {
+           background: none !important;
+       }
+       .mark-text {
+           color: white;
+           margin: 120px;
+           text-decoration: none;
+       }
+   }

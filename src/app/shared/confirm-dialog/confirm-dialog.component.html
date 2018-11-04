@@ -1,0 +1,9 @@
+<div id="confirm-box-container">
+    <div class="card">
+        <div class="card-header"><mat-icon>announcement</mat-icon> Message</div>
+        <div class="card-body msg-body" mat-dialog-content>
+                {{confirmMessage}}
+            <div class="ok-btn"><button mat-flat-button class="btn-bg" (click)="dialogRef.close(false)">ok</button></div>
+        </div>
+    </div>
+</div>

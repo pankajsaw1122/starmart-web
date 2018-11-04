@@ -1,0 +1,247 @@
+<div id="homepage">
+    <div id="carousel">
+        <owl-carousel class="owl-carousel-cs" [options]="mySlideOptions" [items]="images" [carouselClasses]="['owl-theme', 'sliding']">
+            <div class="item" *ngFor="let image of mySlideImages;let i = index">
+                <div>
+                    <img src={{image}} />
+                </div>
+            </div>
+        </owl-carousel>
+    </div>
+    <div class="green-bar">
+        <div class="container-fluid bar-pad">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="icon-box">
+                        <mat-icon class="icon-style">local_shipping</mat-icon>
+                    </div>
+                    <div class="icon-text">
+                        <div class="upper-text">Free Delivery</div>
+                        <div>From $100</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-box">
+                        <mat-icon class="icon-style">monetization_on</mat-icon>
+                    </div>
+                    <div class="icon-text">
+                        <div class="upper-text">Free Delivery</div>
+                        <div>From $100</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-box">
+                        <mat-icon class="icon-style">phone_in_talk</mat-icon>
+                    </div>
+                    <div class="icon-text">
+                        <div class="upper-text">Customer Care</div>
+                        <div>+852 9815 1392</div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="icon-box">
+                        <mat-icon class="icon-style">thumb_up_alt</mat-icon>
+                    </div>
+                    <div class="icon-text">
+                        <div class="upper-text">QUALITY PRODUCTS</div>
+                        <div>You Trust</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="special-offers">
+        <div class="spcl-head">
+            <h1 style="font-size: 42px;">Special Offers</h1>
+            <div class="ser-t">
+                <b></b>
+                <span style="
+					background: #f5f5f5;">
+                    <i></i>
+                </span>
+                <b class="line"></b>
+            </div>
+        </div>
+
+        <div class="offers-tab">
+            <ngb-tabset class="tab-style">
+                <ngb-tab id="tabstyle1" title="Grocery">
+                    <ng-template ngbTabContent>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 adjust-5 marg-top-24">
+                                    <div class="prdoct-box">
+                                        <mat-card class="example-card">
+                                            <mat-card-header>
+                                                <mat-card-title>
+                                                    <div class="offer">
+                                                        <p>
+                                                            <span>offer</span>
+                                                        </p>
+                                                    </div>
+                                                </mat-card-title>
+                                                <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                            </mat-card-header>
+                                            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                                                alt="Photo of a Shiba Inu">
+                                            <mat-card-content>
+                                                <p>
+                                                    The Shiba Inu is the smallest of the six original and distinct
+                                                    spitz breeds
+                                                    of dog from Japan.
+                                                </p>
+                                            </mat-card-content>
+                                            <mat-card-actions>
+                                                <button mat-button>LIKE</button>
+                                                <button mat-button>SHARE</button>
+                                            </mat-card-actions>
+                                        </mat-card>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 adjust-5 marg-top-24">
+                                    <div class="prdoct-box">
+                                        <mat-card class="example-card">
+                                            <mat-card-header>
+                                                <div mat-card-avatar class="example-header-image"></div>
+                                                <mat-card-title>Shiba Inu</mat-card-title>
+                                                <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                            </mat-card-header>
+                                            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                                                alt="Photo of a Shiba Inu">
+                                            <mat-card-content>
+                                                <p>
+                                                    The Shiba Inu is the smallest of the six original and distinct
+                                                    spitz breeds
+                                                    of dog from Japan.
+                                                </p>
+                                            </mat-card-content>
+                                            <mat-card-actions>
+                                                <button mat-button>LIKE</button>
+                                                <button mat-button>SHARE</button>
+                                            </mat-card-actions>
+                                        </mat-card>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 adjust-5 marg-top-24">
+                                    <div class="prdoct-box">
+                                        <mat-card class="example-card">
+                                            <mat-card-header>
+                                                <div mat-card-avatar class="example-header-image"></div>
+                                                <mat-card-title>Shiba Inu</mat-card-title>
+                                                <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                            </mat-card-header>
+                                            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                                                alt="Photo of a Shiba Inu">
+                                            <mat-card-content>
+                                                <p>
+                                                    The Shiba Inu is the smallest of the six original and distinct
+                                                    spitz breeds
+                                                    of dog from Japan.
+                                                </p>
+                                            </mat-card-content>
+                                            <mat-card-actions>
+                                                <button mat-button>LIKE</button>
+                                                <button mat-button>SHARE</button>
+                                            </mat-card-actions>
+                                        </mat-card>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 adjust-5 marg-top-24">
+                                    <div class="prdoct-box">
+                                        <mat-card class="example-card">
+                                            <mat-card-header>
+                                                <div mat-card-avatar class="example-header-image"></div>
+                                                <mat-card-title>Shiba Inu</mat-card-title>
+                                                <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                            </mat-card-header>
+                                            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                                                alt="Photo of a Shiba Inu">
+                                            <mat-card-content>
+                                                <p>
+                                                    The Shiba Inu is the smallest of the six original and distinct
+                                                    spitz breeds
+                                                    of dog from Japan.
+                                                </p>
+                                            </mat-card-content>
+                                            <mat-card-actions>
+                                                <button mat-button>LIKE</button>
+                                                <button mat-button>SHARE</button>
+                                            </mat-card-actions>
+                                        </mat-card>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 adjust-5 marg-top-24">
+                                    <div class="prdoct-box">
+                                        <mat-card class="example-card">
+                                            <mat-card-header>
+                                                <div mat-card-avatar class="example-header-image"></div>
+                                                <mat-card-title>Shiba Inu</mat-card-title>
+                                                <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                            </mat-card-header>
+                                            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                                                alt="Photo of a Shiba Inu">
+                                            <mat-card-content>
+                                                <p>
+                                                    The Shiba Inu is the smallest of the six original and distinct
+                                                    spitz breeds
+                                                    of dog from Japan.
+                                                </p>
+                                            </mat-card-content>
+                                            <mat-card-actions>
+                                                <button mat-button>LIKE</button>
+                                                <button mat-button>SHARE</button>
+                                            </mat-card-actions>
+                                        </mat-card>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 adjust-5 marg-top-24">
+                                        <div class="prdoct-box">
+                                            <mat-card class="example-card">
+                                                <mat-card-header>
+                                                    <div mat-card-avatar class="example-header-image"></div>
+                                                    <mat-card-title>Shiba Inu</mat-card-title>
+                                                    <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+                                                </mat-card-header>
+                                                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                                                    alt="Photo of a Shiba Inu">
+                                                <mat-card-content>
+                                                    <p>
+                                                        The Shiba Inu is the smallest of the six original and distinct
+                                                        spitz breeds
+                                                        of dog from Japan.
+                                                    </p>
+                                                </mat-card-content>
+                                                <mat-card-actions>
+                                                    <button mat-button>LIKE</button>
+                                                    <button mat-button>SHARE</button>
+                                                </mat-card-actions>
+                                            </mat-card>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </ng-template>
+                </ngb-tab>
+                <ngb-tab id="tabstyle2" title="Personal Care">
+                    <ng-template ngbTabContent>
+                        <p>Because default values have been customized.</p>
+                    </ng-template>
+                </ngb-tab>
+                <ngb-tab id="tabstyle3" title="Beverages">
+                    <ng-template ngbTabContent>
+                        <p>Because default values have been customized.</p>
+                    </ng-template>
+                </ngb-tab>
+                <ngb-tab id="tabstyle4" title="House Hold">
+                    <ng-template ngbTabContent>
+                        <p>Because default values have been customized.</p>
+                    </ng-template>
+                </ngb-tab>
+            </ngb-tabset>
+        </div>
+    </div>
+
+</div>
